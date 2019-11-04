@@ -17,7 +17,7 @@ Flask-Security
 Flask-Admin 
 Markdown 
 tgcrypto
-"psycopg2" 
+psycopg2
 cryptography 
 tornado 
 sentry-sdk 
