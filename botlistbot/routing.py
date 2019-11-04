@@ -5,7 +5,7 @@ from functools import partial
 from logzero import logger as log
 
 from telegram.ext import CallbackQueryHandler, ChosenInlineResultHandler, CommandHandler, \
-    ConversationHandler, Dispatcher, DispatcherHandlerStop, Filters, InlineQueryHandler, \
+    ConversationHandler, Dispatcher, Filters, InlineQueryHandler, \
     MessageHandler, RegexHandler
 
 import captions
