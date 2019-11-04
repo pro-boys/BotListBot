@@ -521,7 +521,7 @@ def main():
         BOT_TOKEN = str(os.environ['TG_TOKEN'])
     except Exception:
         # BOT_TOKEN = str(sys.argv[1])
-        BOT_TOKEN = "265482650:AAEABaV06JMB3k5QnyWvbP4-_3S-wyxLG4M"
+        BOT_TOKEN = "946438606:AAFEI_QUW6qTGjQeI1oNxbGiPIID18sXuM8"
     try:
         PORT = str(os.environ['PORT'])
     except Exception:
