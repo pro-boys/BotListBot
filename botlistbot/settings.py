@@ -10,9 +10,6 @@ PORT = config("PORT", default=8443, cast=int)
 # region BOT CONFIGURATION
 BOT_TOKEN = config('BOT_TOKEN', default=None) or (sys.argv[1] if len(sys.argv) > 1 else None)
 LOG_DIR = config('LOG_DIR', default=os.path.dirname(os.path.abspath(__file__)))
-BOT_THUMBNAIL_DIR = config('BOT_THUMBNAIL_DIR',
-                           default=os.path.expanduser(
-                               '/home/joscha/data/botlistbot/bot-profile-pictures'))
 MODERATORS = [
     # 127782573,  # UNKNOWN - delete sometime
     # 43740047,   # UNKNOWN - delete sometime
